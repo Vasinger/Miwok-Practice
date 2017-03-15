@@ -11,6 +11,16 @@ public class Word {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private int mSongResourcePosition;
 
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mImageResourceId=" + mImageResourceId +
+                ", mSongResourcePosition=" + mSongResourcePosition +
+                '}';
+    }
+
     private static final int NO_IMAGE_PROVIDED = -1;
 
     public Word(String defaultTranslation, String miwokTranslation, int songResourcePosition) {

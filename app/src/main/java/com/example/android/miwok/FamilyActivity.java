@@ -58,6 +58,5 @@ public class FamilyActivity extends AppCompatActivity {
                 mMediaPlayer = MediaPlayer.create(FamilyActivity.this, word.getSongResourcePosition());
                 mMediaPlayer.start();
             }});
-
     }
 }
